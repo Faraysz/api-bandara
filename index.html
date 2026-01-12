@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Jadwal Penerbangan Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>✈️ Jadwal Penerbangan Indonesia</h1>
+    <p>Data Real-Time dari Aviation Edge API</p>
+</header>
+
+<section class="search">
+    <input type="text" id="airportCode" placeholder="Kode Bandara (CGK, SUB, DPS)">
+    <button onclick="getFlights()">Cari</button>
+</section>
+
+<section class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>Maskapai</th>
+                <th>Flight</th>
+                <th>Asal</th>
+                <th>Tujuan</th>
+                <th>Berangkat</th>
+                <th>Tiba</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="flightData">
+            <tr><td colspan="7">Masukkan kode bandara</td></tr>
+        </tbody>
+    </table>
+</section>
+
+<footer>
+    <p>© 2026 | Jadwal Penerbangan Indonesia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
