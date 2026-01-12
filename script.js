@@ -1,4 +1,4 @@
-const API_KEY = "c20250149a7e9be2c85d421fb3e63b6d";
+const API_KEY = "86c50baf2d8c9e9bfd7a43784972421c";
 
 async function getFlights() {
     const airport = document.getElementById("airportCode").value.toUpperCase();
